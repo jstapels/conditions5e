@@ -2,9 +2,9 @@
   "name": "conditions5e",
   "title": "Conditions for D&D 5e",
   "description": "This module alters the effects in the Token HUD for D&D 5e conditions.",
-  "version": "0.4.9",
-  "minimumCoreVersion": "0.4.5",
-  "compatibleCoreVersion": "0.6.6",
+  "version": "0.5.0",
+  "minimumCoreVersion": "0.7.4",
+  "compatibleCoreVersion": "0.8.6",
   "author": "trdischat",
   "systems": ["dnd5e"],
   "scripts": ["main.js", "patchlib.js"],
@@ -16,6 +16,6 @@
     "path": "lang/en.json"
   }],
   "url": "https://github.com/trdischat/conditions5e",
-  "manifest": "https://raw.githubusercontent.com/trdischat/conditions5e/master/module.json",
-  "download": "https://github.com/trdischat/conditions5e/archive/master.zip"
+  "manifest": "https://raw.githubusercontent.com/mattstock/conditions5e/master/module.json",
+  "download": "https://github.com/mattstock/conditions5e/archive/master.zip"
 }

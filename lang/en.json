@@ -19,5 +19,6 @@
   "EFFECT.StatusRestrained": "Restrained",
   "EFFECT.StatusStunned": "Stunned",
   "EFFECT.StatusUnconscious": "Unconscious",
-  "EFFECT.StatusWounded": "Wounded"
+    "EFFECT.StatusWounded": "Wounded",
+  "EFFECT.StatusConcentrating": "Concentrating"
 }

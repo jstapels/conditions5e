@@ -132,6 +132,11 @@ Hooks.once("init", function () {
         label: "EFFECT.StatusExhausted5",
         icon: "modules/conditions5e/icons/exhaustion5.svg"
       },
+      {
+        id: "concentrating",
+        label: "EFFECT.StatusConcentrating",
+        icon: "modules/conditions5e/icons/concentrating.svg"
+      },
     ];
   }
 
