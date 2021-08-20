@@ -38,110 +38,105 @@ Hooks.once("init", function () {
         icon: "modules/conditions5e/icons/dead.svg"
       },
       {
-        id: "unconscious",
-        label: "EFFECT.StatusUnconscious",
-        icon: "modules/conditions5e/icons/unconscious.svg"
-      },
-      {
-        id: "stun",
-        label: "EFFECT.StatusStunned",
-        icon: "modules/conditions5e/icons/stunned.svg"
-      },
-      {
-        id: "exhaustion1",
-        label: "EFFECT.StatusExhausted1",
-        icon: "modules/conditions5e/icons/exhaustion1.svg"
-      },
-      {
-        id: "incapacitated",
-        label: "EFFECT.StatusIncapacitated",
-        icon: "modules/conditions5e/icons/incapacitated.svg"
-      },
-      {
-        id: "paralysis",
-        label: "EFFECT.StatusParalysis",
-        icon: "modules/conditions5e/icons/paralyzed.svg",
-      },
-      {
-        id: "petrified",
-        label: "EFFECT.StatusPetrified",
-        icon: "modules/conditions5e/icons/petrified.svg",
-      },
-      {
-        id: "exhaustion2",
-        label: "EFFECT.StatusExhausted2",
-        icon: "modules/conditions5e/icons/exhaustion2.svg"
+        id: "concentrating",
+        label: "EFFECT.StatusConcentrating",
+        icon: "modules/conditions5e/icons/1_Concentrating.svg"
       },
       {
         id: "grappled",
         label: "EFFECT.StatusGrappled",
-        icon: "modules/conditions5e/icons/grappled.svg",
-      },
-      {
-        id: "restrain",
-        label: "EFFECT.StatusRestrained",
-        icon: "modules/conditions5e/icons/restrained.svg",
+        icon: "modules/conditions5e/icons/2_Grappled.svg",
       },
       {
         id: "prone",
         label: "EFFECT.StatusProne",
-        icon: "modules/conditions5e/icons/prone.svg"
+        icon: "modules/conditions5e/icons/3_Prone.svg"
       },
       {
-        id: "exhaustion3",
-        label: "EFFECT.StatusExhausted3",
-        icon: "modules/conditions5e/icons/exhaustion3.svg"
+        id: "restrain",
+        label: "EFFECT.StatusRestrained",
+        icon: "modules/conditions5e/icons/4_Restrained.svg",
       },
       {
-        id: "charmed",
-        label: "EFFECT.StatusCharmed",
-        icon: "modules/conditions5e/icons/charmed.svg"
-      },
-      {
-        id: "fear",
-        label: "EFFECT.StatusFear",
-        icon: "modules/conditions5e/icons/frightened.svg"
-      },
-      {
-        id: "poison",
-        label: "EFFECT.StatusPoison",
-        icon: "modules/conditions5e/icons/poisoned.svg"
-      },
-      {
-        id: "exhaustion4",
-        label: "EFFECT.StatusExhausted4",
-        icon: "modules/conditions5e/icons/exhaustion4.svg"
+        id: "unconscious",
+        label: "EFFECT.StatusUnconscious",
+        icon: "modules/conditions5e/icons/5_Unconscious.svg"
       },
       {
         id: "blind",
         label: "EFFECT.StatusBlind",
-        icon: "modules/conditions5e/icons/blinded.svg"
+        icon: "modules/conditions5e/icons/6_Blinded.svg"
+      },
+      {
+        id: "burning",
+        label: "EFFECT.StatusBurning",
+        icon: "modules/conditions5e/icons/7_Burning.svg"
+      },
+      {
+        id: "charmed",
+        label: "EFFECT.StatusCharmed",
+        icon: "modules/conditions5e/icons/8_Charmed.svg"
       },
       {
         id: "deaf",
         label: "EFFECT.StatusDeaf",
-        icon: "modules/conditions5e/icons/deafened.svg"
+        icon: "modules/conditions5e/icons/9_Deafened.svg"
       },
       {
-        id: "disease",
-        label: "EFFECT.StatusDisease",
-        icon: "modules/conditions5e/icons/diseased.svg"
+        id: "exhaustion",
+        label: "EFFECT.StatusExhausted",
+        icon: "modules/conditions5e/icons/10_Exhausted.svg"
       },
       {
-        id: "exhaustion5",
-        label: "EFFECT.StatusExhausted5",
-        icon: "modules/conditions5e/icons/exhaustion5.svg"
+        id: "fear",
+        label: "EFFECT.StatusFear",
+        icon: "modules/conditions5e/icons/11_Feared.svg"
       },
       {
-        id: "concentrating",
-        label: "EFFECT.StatusConcentrating",
-        icon: "modules/conditions5e/icons/concentrating.svg"
+        id: "disarmed",
+        label: "EFFECT.StatusDisarmed",
+        icon: "modules/conditions5e/icons/12_Disarmed.svg"
+      },
+      {
+        id: "incapacitated",
+        label: "EFFECT.StatusIncapacitated",
+        icon: "modules/conditions5e/icons/13_Incapacitated.svg"
+      },
+      {
+        id: "mute",
+        label: "EFFECT.StatusMute",
+        icon: "modules/conditions5e/icons/14_Mute.svg"
+      },
+      {
+        id: "paralysis",
+        label: "EFFECT.StatusParalysis",
+        icon: "modules/conditions5e/icons/15_Paralyzed.svg",
+      },
+      {
+        id: "petrified",
+        label: "EFFECT.StatusPetrified",
+        icon: "modules/conditions5e/icons/16_Petrified.svg",
+      },
+      {
+        id: "poison",
+        label: "EFFECT.StatusPoison",
+        icon: "modules/conditions5e/icons/17_Poisoned.svg"
+      },
+      {
+        id: "sleeping",
+        label: "EFFECT.StatusSleeping",
+        icon: "modules/conditions5e/icons/18_Sleeping.svg"
+      },
+      {
+        id: "stun",
+        label: "EFFECT.StatusStunned",
+        icon: "modules/conditions5e/icons/19_Stunned.svg"
       },
     ];
   }
 
   // Replace selected control icons
-  CONFIG.controlIcons.visibility = "modules/conditions5e/icons/invisible.svg";
+  CONFIG.controlIcons.visibility = "modules/conditions5e/icons/32_Invisible.svg";
   CONFIG.controlIcons.defeated = "modules/conditions5e/icons/dead.svg";
 });
 
