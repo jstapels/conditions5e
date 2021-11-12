@@ -5,139 +5,139 @@
 Hooks.once("init", function () {
   if (isNewerVersion('0.7.4', game.data.version)) {
     CONFIG.statusEffects = [
-      "modules/conditions5e/icons/dead.svg",
-      "modules/conditions5e/icons/unconscious.svg",
-      "modules/conditions5e/icons/stunned.svg",
-      "modules/conditions5e/icons/exhaustion1.svg",
+      "modules/misfits-conditions5e/icons/dead.svg",
+      "modules/misfits-conditions5e/icons/unconscious.svg",
+      "modules/misfits-conditions5e/icons/stunned.svg",
+      "modules/misfits-conditions5e/icons/exhaustion1.svg",
   
-      "modules/conditions5e/icons/incapacitated.svg",
-      "modules/conditions5e/icons/paralyzed.svg",
-      "modules/conditions5e/icons/petrified.svg",
-      "modules/conditions5e/icons/exhaustion2.svg",
+      "modules/misfits-conditions5e/icons/incapacitated.svg",
+      "modules/misfits-conditions5e/icons/paralyzed.svg",
+      "modules/misfits-conditions5e/icons/petrified.svg",
+      "modules/misfits-conditions5e/icons/exhaustion2.svg",
   
-      "modules/conditions5e/icons/grappled.svg",
-      "modules/conditions5e/icons/restrained.svg",
-      "modules/conditions5e/icons/prone.svg",
-      "modules/conditions5e/icons/exhaustion3.svg",
+      "modules/misfits-conditions5e/icons/grappled.svg",
+      "modules/misfits-conditions5e/icons/restrained.svg",
+      "modules/misfits-conditions5e/icons/prone.svg",
+      "modules/misfits-conditions5e/icons/exhaustion3.svg",
   
-      "modules/conditions5e/icons/charmed.svg",
-      "modules/conditions5e/icons/frightened.svg",
-      "modules/conditions5e/icons/poisoned.svg",
-      "modules/conditions5e/icons/exhaustion4.svg",
+      "modules/misfits-conditions5e/icons/charmed.svg",
+      "modules/misfits-conditions5e/icons/frightened.svg",
+      "modules/misfits-conditions5e/icons/poisoned.svg",
+      "modules/misfits-conditions5e/icons/exhaustion4.svg",
   
-      "modules/conditions5e/icons/blinded.svg",
-      "modules/conditions5e/icons/deafened.svg",
-      "modules/conditions5e/icons/diseased.svg",
-      "modules/conditions5e/icons/exhaustion5.svg"
+      "modules/misfits-conditions5e/icons/blinded.svg",
+      "modules/misfits-conditions5e/icons/deafened.svg",
+      "modules/misfits-conditions5e/icons/diseased.svg",
+      "modules/misfits-conditions5e/icons/exhaustion5.svg"
     ];
   } else {
     CONFIG.statusEffects = [
       {
         id: "dead",
         label: "EFFECT.StatusDead",
-        icon: "modules/conditions5e/icons/dead.svg"
+        icon: "modules/misfits-conditions5e/icons/dead.svg"
       },
       {
         id: "concentrating",
         label: "EFFECT.StatusConcentrating",
-        icon: "modules/conditions5e/icons/1_Concentrating.svg"
+        icon: "modules/misfits-conditions5e/icons/1_Concentrating.svg"
       },
       {
         id: "grappled",
         label: "EFFECT.StatusGrappled",
-        icon: "modules/conditions5e/icons/2_Grappled.svg",
+        icon: "modules/misfits-conditions5e/icons/2_Grappled.svg",
       },
       {
         id: "prone",
         label: "EFFECT.StatusProne",
-        icon: "modules/conditions5e/icons/3_Prone.svg"
+        icon: "modules/misfits-conditions5e/icons/3_Prone.svg"
       },
       {
         id: "restrain",
         label: "EFFECT.StatusRestrained",
-        icon: "modules/conditions5e/icons/4_Restrained.svg",
+        icon: "modules/misfits-conditions5e/icons/4_Restrained.svg",
       },
       {
         id: "unconscious",
         label: "EFFECT.StatusUnconscious",
-        icon: "modules/conditions5e/icons/5_Unconscious.svg"
+        icon: "modules/misfits-conditions5e/icons/5_Unconscious.svg"
       },
       {
         id: "blind",
         label: "EFFECT.StatusBlind",
-        icon: "modules/conditions5e/icons/6_Blinded.svg"
+        icon: "modules/misfits-conditions5e/icons/6_Blinded.svg"
       },
       {
         id: "burning",
         label: "EFFECT.StatusBurning",
-        icon: "modules/conditions5e/icons/7_Burning.svg"
+        icon: "modules/misfits-conditions5e/icons/7_Burning.svg"
       },
       {
         id: "charmed",
         label: "EFFECT.StatusCharmed",
-        icon: "modules/conditions5e/icons/8_Charmed.svg"
+        icon: "modules/misfits-conditions5e/icons/8_Charmed.svg"
       },
       {
         id: "deaf",
         label: "EFFECT.StatusDeaf",
-        icon: "modules/conditions5e/icons/9_Deafened.svg"
+        icon: "modules/misfits-conditions5e/icons/9_Deafened.svg"
       },
       {
         id: "exhaustion",
         label: "EFFECT.StatusExhausted",
-        icon: "modules/conditions5e/icons/10_Exhausted.svg"
+        icon: "modules/misfits-conditions5e/icons/10_Exhausted.svg"
       },
       {
         id: "fear",
         label: "EFFECT.StatusFear",
-        icon: "modules/conditions5e/icons/11_Feared.svg"
+        icon: "modules/misfits-conditions5e/icons/11_Feared.svg"
       },
       {
         id: "disarmed",
         label: "EFFECT.StatusDisarmed",
-        icon: "modules/conditions5e/icons/12_Disarmed.svg"
+        icon: "modules/misfits-conditions5e/icons/12_Disarmed.svg"
       },
       {
         id: "incapacitated",
         label: "EFFECT.StatusIncapacitated",
-        icon: "modules/conditions5e/icons/13_Incapacitated.svg"
+        icon: "modules/misfits-conditions5e/icons/13_Incapacitated.svg"
       },
       {
         id: "mute",
         label: "EFFECT.StatusMute",
-        icon: "modules/conditions5e/icons/14_Mute.svg"
+        icon: "modules/misfits-conditions5e/icons/14_Mute.svg"
       },
       {
         id: "paralysis",
         label: "EFFECT.StatusParalysis",
-        icon: "modules/conditions5e/icons/15_Paralyzed.svg",
+        icon: "modules/misfits-conditions5e/icons/15_Paralyzed.svg",
       },
       {
         id: "petrified",
         label: "EFFECT.StatusPetrified",
-        icon: "modules/conditions5e/icons/16_Petrified.svg",
+        icon: "modules/misfits-conditions5e/icons/16_Petrified.svg",
       },
       {
         id: "poison",
         label: "EFFECT.StatusPoison",
-        icon: "modules/conditions5e/icons/17_Poisoned.svg"
+        icon: "modules/misfits-conditions5e/icons/17_Poisoned.svg"
       },
       {
         id: "sleeping",
         label: "EFFECT.StatusSleeping",
-        icon: "modules/conditions5e/icons/18_Sleeping.svg"
+        icon: "modules/misfits-conditions5e/icons/18_Sleeping.svg"
       },
       {
         id: "stun",
         label: "EFFECT.StatusStunned",
-        icon: "modules/conditions5e/icons/19_Stunned.svg"
+        icon: "modules/misfits-conditions5e/icons/19_Stunned.svg"
       },
     ];
   }
 
   // Replace selected control icons
-  CONFIG.controlIcons.visibility = "modules/conditions5e/icons/32_Invisible.svg";
-  CONFIG.controlIcons.defeated = "modules/conditions5e/icons/dead.svg";
+  CONFIG.controlIcons.visibility = "modules/misfits-conditions5e/icons/32_Invisible.svg";
+  CONFIG.controlIcons.defeated = "modules/misfits-conditions5e/icons/dead.svg";
 });
 
 // Patch CombatTracker to work with token HUD overlay
@@ -168,9 +168,9 @@ Token.prototype._updateHealthOverlay = function () {
   let priorHealth = this.data.overlayEffect;
   let newHealth = null;
   if (curHP <= 0) {
-    if (priorHealth === "modules/conditions5e/icons/dead.svg") newHealth = priorHealth;
-    else newHealth = "modules/conditions5e/icons/almostdead.svg";
-  } else if (curHP / maxHP < 0.5) newHealth = "modules/conditions5e/icons/wounded.svg";
+    if (priorHealth === "modules/misfits-conditions5e/icons/dead.svg") newHealth = priorHealth;
+    else newHealth = "modules/misfits-conditions5e/icons/almostdead.svg";
+  } else if (curHP / maxHP < 0.5) newHealth = "modules/misfits-conditions5e/icons/wounded.svg";
   // toggleOverlay deprecated in 0.7.4
   if (newHealth !== priorHealth) {
     if (isNewerVersion('0.7.4', game.data.version)) {
