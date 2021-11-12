@@ -1,8 +1,8 @@
 {
-  "name": "conditions5e",
-  "title": "Conditions for D&D 5e",
+  "name": "misfitsConditions5e",
+  "title": "Conditions for DnD 5e",
   "description": "This module alters the effects in the Token HUD for D&D 5e conditions.",
-  "version": "0.6.0",
+  "version": "1.0.0",
   "minimumCoreVersion": "0.7.4",
   "compatibleCoreVersion": "0.8.9",
   "author": "trdischat",
